@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* for big screen */
+body{
+    font-size: 28px;
+    margin: 0;
+}
+.bars{
+    display: none;
+}
+.hero{
+    width: 100%;
+}
+.container{
+    box-sizing: border-box;
+    max-width: 1280px;
+    width: 100%;
+    height: fit-content;
+    margin: 0px auto;
+}
+nav ul>li{
+    display: inline;
+    margin-left: 20px;
+}
+nav ul>li>a{
+    font-weight: lighter;
+}
+h1{
+    text-align: center;
+    max-width:800px ;
+    display: flex;
+    justify-content: center;
+    font-size: 94px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.flex-center{
+    margin-top: 10px;
+
+}
+.btn-trial{
+    text-transform: capitalize;
+    margin: 0 auto;
+    padding: 25px 50px;
+    position: relative;
+    top: 35px;
+    border: 1px solid white;
+    font-weight: bold;
+    color:rgb(49,67,119);
+}
+.hero img{
+    max-width:800px ;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: -170px;
+}
+.hero{
+    margin-bottom: 200px;
+}
+.info .flex ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info .flex ul li{
+    width: fit-content;
+
+}
+.info ul li>a{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.info ul li>a img{
+    height: 40px;
+    width: fit-content;
+}
+.info ul li>a span{
+        font-size: 24px;
+        margin-left: 3px;
+        align-self: center;
+        font-size: 24px;
+        }
+.info ul li{
+    display: inline;
+}
+.border-bottom{
+    border-left: 0;
+    border-bottom: gray solid 3px;
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-col{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.w40{
+    width: 35%;
+    padding: 20px;
+    margin: 20px;
+}
+.about-image h2{
+    color: rgb(40,62,125);
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+table{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+}
+table td,th{
+    padding: 20px 40px;
+    border: 1px solid grey;
+}
+.table{
+    width: 100%;
+}
+table caption>h2{
+    font-size:3rem;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.planPrice>h2{
+    max-width: 50%;
+    width: 100%;
+    font-size:3rem;
+    margin: 20px auto;
+    text-transform: uppercase; 
+
+}
+
+.planPrice .center-toggle span{
+    font-size: 40px;
+}
+.toggle{
+    border-radius: 30px;
+}
+.card-container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 45%;
+    border: 5px solid rgb(197, 197, 197);
+    padding: 30px;
+    border-radius: 20px;
+}
+.card h2{
+    width: 100%;
+    font-size:3rem;
+    margin: 20px auto;
+    text-transform: uppercase; 
+}
+.card p{
+    text-align: center;
+}
+.card li{
+    margin: 10px 0
+}
+.banner-bottom{
+    width: 80%;
+    margin: 0 auto;
+}
+.banner-bottom h2{
+    font-size:2rem;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.get-started-now{
+    margin-bottom: 30px;
+}
+footer{
+    width: 80%;
+    margin:0 auto;
+}
+.trackl-footer,.features-footer,.support-footer,.contact-footer{
+    width: 20%;
+}
